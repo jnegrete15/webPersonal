@@ -31,11 +31,11 @@ button:hover{
 
   body{
   	background: linear-gradient(#6D7172, black);
-  	margin: 10px;
+  	margin: 0px;
 
   }
 
-  div{
+  #div1{
   	background: rgba(0, 51, 71, .89);
   	text-align: center;
   	padding-top: 250px;
@@ -62,11 +62,45 @@ table{
 #lateral{
 	background: #045841;
 	width: 35%;
-	height: 400px;
-	margin-left: 866px; 
+	height: 420px;
+	margin-left: 877px; 
+	position: relative;
 }
 
-aside{
-	background: red;
+section{
+	background: #F7F4F4;
+	width: 65%;
+	height: 800px;
+	position: absolute;
+}
 
+#table{
+	background: black;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	margin:5px;
+	width: 63%;
+	margin: 15px;
+	position: absolute;
+	padding: 0px;
+	height: 350px;
+	margin-left: 80px;
+}
+
+#columna1{
+	background: white;
+	color: black;
+	width: 60%;
+}
+
+#columna2{
+	background: white;
+	color: black;
+    width: 100%;
+}	
+
+tr{
+	margin: 10px;
+	padding: 10px;
 }
