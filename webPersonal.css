@@ -1,3 +1,6 @@
+*{
+	font-family: arial;
+}
 nav{
 	text-align: left;
 	padding-top: 20px;
@@ -12,7 +15,7 @@ button{
 	margin: 7px 30px 7px 10px;
 	background: #E4583C;
 	text-decoration: none;
-	font-family: arial;
+	/*font-family: arial;*/
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
@@ -48,23 +51,36 @@ button:hover{
     transform: translate(0px, 10px);
   }
 
-  body{
+body{
   	background: linear-gradient(#6D7172, black);
   	margin: 0px;
  }
 
-  #inicioBody{
+ #quienSoyBody{
+ 	background: white;
+ }
+
+ #pasionesBody{
+ 	background:url(pasiones.jpg);
+ 	height: 1140px;
+ }
+
+#hrquienSoy{
+	height: 10px;
+}
+
+#inicioBody{
   	background: linear-gradient(#6D7172, black);
   	margin: 0px;
   	display: inline;
+  	height: 935px;
   }
 
-  #div1{
+#div1{
   	background: rgba(0, 51, 71, .89);
   	text-align: center;
   	padding-top: 250px;
   	margin: 0px;
-/*  	position: relative;*/
   	color: white;
   	font-size: 3rem;
   	width: 100%;
@@ -79,10 +95,6 @@ button:hover{
 	position: absolute;
 }
 
-/*table{
-	display: block;
-}
-*/
 #lateral{
 	background-image: url("ciudad1.jpg");
 	width: 35%;
@@ -95,7 +107,7 @@ button:hover{
 }
 
 #inicioSection{
-	background: #F7F4F4;
+	background: url(inicio.jpg);
 	width: 65%;
 	height: 500px;
 	position: relative;
@@ -108,11 +120,12 @@ button:hover{
 
 #quiensoySection{
 	height: 500px;
+	background: url(quiensoy.jpg);
 }
 
 #table{
 	background: black;
-	font-family: arial;
+	/*font-family: arial;*/
 	font-size: 20px;
 	color: white;
 	margin:5px;
@@ -237,7 +250,7 @@ input[type=text], input[type=email], select {
   border: 3px solid black;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: arial;
+  /*font-family: arial;*/
   font-size: 15px;
 }
 
@@ -304,7 +317,7 @@ header li{
 label{
 	color: black;
 	font-size: 20px;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-shadow: 1px -1px 1px white;
 }
 
@@ -312,7 +325,7 @@ label{
 	text-shadow: 4px -1px 1px black;
 	color: white;
 	font-size: 30px;
-	font-family: arial;
+	/*font-family: arial;*/
 	padding: 0px;
 	margin-top: 1000px;
 }
@@ -329,7 +342,21 @@ label{
 #inicioLabel{
 	color: black;
 	font-size: 20px;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-shadow: 1px -1px 1px black;
 }
 
+#divTexto{
+	text-align:left;
+	margin-left: 300px;
+	margin-top: -30px;
+	padding-bottom: 400px; 
+	width: 1000px;
+	position: absolute;
+	text-align: justify;
+}
+footer{
+	background: white;
+	font-size: 20px;
+	/*font-family: arial;*/
+}
